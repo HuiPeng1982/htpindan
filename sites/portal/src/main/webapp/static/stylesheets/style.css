@@ -1,0 +1,48 @@
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+    background-color: #ebeced;
+    font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.probe-page {
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 20px rgba(0,0,0,0.3);
+    margin: 2em auto;
+    max-width: 600px;
+    outline: 0;
+    padding: 1em;
+    width: 80%;
+}
+
+.probe-form {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.probe-form form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.probe-form legend {
+    text-align: center;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 32px;
+    color: inherit;
+}
+.probe-form .wfa {
+    width: 70px;
+}
+
+.probe-page .probe-form legend {
+    padding: 20px 0 20px 0;
+}
+
+
