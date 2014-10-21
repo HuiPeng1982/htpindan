@@ -10,3 +10,4 @@
 # Others
 target/
 logs/
+.DS_Store
